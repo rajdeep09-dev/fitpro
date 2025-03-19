@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitPro - Personalized Fitness Plans</title>
+    <meta name="description" content="Transform your body with our personalized fitness plans. Expert guidance, affordable options, proven results.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-black text-white">
+    <!-- Custom Cursor -->
+    <div id="custom-cursor" class="hidden"></div>
+    <div id="cursor-dot" class="hidden"></div>
+
+    <!-- Mobile Header -->
+    <header class="mobile-header">
+        <div class="container">
+            <a href="index.html" class="logo">FitPro</a>
+            <div class="header-buttons">
+                <a href="contact.html" class="btn btn-ghost">Contact</a>
+                <a href="#" class="btn btn-primary">Get Started</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section with Background Image -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-content animate-fade-up">
+                <span class="tag">Crush Your Goals, One Plan at a Time!</span>
+                <h1 class="hero-title">
+                    <span class="block">STRONGER</span>
+                    <span class="block faded">EVERY DAY</span>
+                    <span class="block">FITTER</span>
+                    <span class="block faded">FOREVER</span>
+                </h1>
+                <p class="hero-description">
+                    Where fitness meets innovation and transforms lives of people with a range of different goals.
+                </p>
+                <div class="hero-buttons">
+                    <a href="plans.html" class="btn btn-primary">
+                        Explore Plans
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="testimonials.html" class="btn btn-outline">
+                        See Results
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid animate-fade-in">
+                <div class="stat-item">
+                    <div class="stat-number">100K+</div>
+                    <div class="stat-label">Members</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">150+</div>
+                    <div class="stat-label">Trainers</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Services</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Plans Overview -->
+    <section class="plans-section">
+        <div class="container">
+            <div class="section-header animate-fade-up">
+                <h2 class="section-title">
+                    <span class="faded">FIND YOUR</span>
+                    <span> PERFECT PLAN</span>
+                </h2>
+                <p class="section-description">Tailored fitness solutions for every goal and budget</p>
+            </div>
+
+            <div class="plans-grid">
+                <div class="plan-card animate-fade-up" data-delay="0">
+                    <div class="plan-content">
+                        <div>
+                            <div class="plan-icon">
+                                <i class="fas fa-dumbbell"></i>
+                            </div>
+                            <h3 class="plan-title">One-on-One Plan</h3>
+                            <p class="plan-description">Personal trainer, customized workouts</p>
+                        </div>
+                        <div class="plan-price">
+                            <p class="price">₹5000</p>
+                            <p class="price-period">/month</p>
+                        </div>
+                    </div>
+                    <a href="plans.html#one-on-one" class="card-link"></a>
+                    <div class="card-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+
+                <div class="plan-card animate-fade-up" data-delay="1">
+                    <div class="plan-content">
+                        <div>
+                            <div class="plan-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h3 class="plan-title">Diet Plan</h3>
+                            <p class="plan-description">Train with a diet helps in muscle building</p>
+                        </div>
+                        <div class="plan-price">
+                            <p class="price">₹100</p>
+                            <p class="price-period">/month</p>
+                        </div>
+                    </div>
+                    <a href="plans.html#duet" class="card-link"></a>
+                    <div class="card-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+
+                <div class="plan-card animate-fade-up" data-delay="2">
+                    <div class="plan-content">
+                        <div>
+                            <div class="plan-icon">
+                                <i class="fas fa-dumbbell"></i>
+                            </div>
+                            <h3 class="plan-title">Workout Plan</h3>
+                            <p class="plan-description">Tailored exercise routines</p>
+                        </div>
+                        <div class="plan-price">
+                            <p class="price">₹100</p>
+                            <p class="price-period">/month</p>
+                        </div>
+                    </div>
+                    <a href="plans.html#workout" class="card-link"></a>
+                    <div class="card-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+
+                <div class="plan-card animate-fade-up" data-delay="3">
+                    <div class="plan-content">
+                        <div>
+                            <div class="plan-icon">
+                                <i class="fas fa-leaf"></i>
+                            </div>
+                            <h3 class="plan-title">Diet & Workout Combo</h3>
+                            <p class="plan-description">Complete nutrition and training</p>
+                        </div>
+                        <div class="plan-price">
+                            <p class="price">₹150</p>
+                            <p class="price-period">/month</p>
+                        </div>
+                    </div>
+                    <a href="plans.html#combo" class="card-link"></a>
+                    <div class="card-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Transformation Stories -->
+    <section class="transformations-section">
+        <div class="container">
+            <div class="section-header animate-fade-up">
+                <h2 class="section-title">
+                    <span>REAL</span>
+                    <span class="faded"> TRANSFORMATIONS</span>
+                </h2>
+                <p class="section-description">See what our clients have achieved</p>
+            </div>
+
+            <div class="testimonials-slider">
+                <div class="testimonial-card animate-fade-right" data-delay="0">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">
+                            <img src="https://via.placeholder.com/40?text=User1" alt="Client 1">
+                        </div>
+                        <div>
+                            <h3 class="testimonial-name">Client Name</h3>
+                            <p class="testimonial-meta">-15kg in 3 months</p>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">
+                        "The personalized approach made all the difference. I've tried many programs before, but this is the
+                        first one that actually delivered results."
+                    </p>
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="testimonial-card animate-fade-right" data-delay="1">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">
+                            <img src="https://via.placeholder.com/40?text=User2" alt="Client 2">
+                        </div>
+                        <div>
+                            <h3 class="testimonial-name">Client Name</h3>
+                            <p class="testimonial-meta">+8kg muscle</p>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">
+                        "The personalized approach made all the difference. I've tried many programs before, but this is the
+                        first one that actually delivered results."
+                    </p>
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="testimonial-card animate-fade-right" data-delay="2">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">
+                            <img src="https://via.placeholder.com/40?text=User3" alt="Client 3">
+                        </div>
+                        <div>
+                            <h3 class="testimonial-name">Client Name</h3>
+                            <p class="testimonial-meta">Body recomp</p>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">
+                        "The personalized approach made all the difference. I've tried many programs before, but this is the
+                        first one that actually delivered results."
+                    </p>
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-6">
+                <a href="testimonials.html" class="btn btn-outline btn-sm">
+                    View All Success Stories
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits-section">
+        <div class="container">
+            <div class="section-header animate-fade-up">
+                <h2 class="section-title">
+                    <span class="faded">WHY CHOOSE</span>
+                    <span> FITPRO</span>
+                </h2>
+                <p class="section-description">What sets us apart from the rest</p>
+            </div>
+
+            <div class="benefits-list">
+                <div class="benefit-item animate-fade-up" data-delay="0">
+                    <i class="fas fa-check-circle"></i>
+                    <div>
+                        <h3 class="benefit-title">Personalized Approach</h3>
+                        <p class="benefit-description">Every plan is custom-tailored to your unique body, goals, and lifestyle.</p>
+                    </div>
+                </div>
+
+                <div class="benefit-item animate-fade-up" data-delay="1">
+                    <i class="fas fa-check-circle"></i>
+                    <div>
+                        <h3 class="benefit-title">Affordable Options</h3>
+                        <p class="benefit-description">Quality fitness guidance that fits any budget, starting at just ₹100/month.</p>
+                    </div>
+                </div>
+
+                <div class="benefit-item animate-fade-up" data-delay="2">
+                    <i class="fas fa-check-circle"></i>
+                    <div>
+                        <h3 class="benefit-title">Proven Results</h3>
+                        <p class="benefit-description">Our methods have helped thousands transform their bodies and lives.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content animate-fade-up">
+                <h2 class="cta-title">Start Today, Change Forever!</h2>
+                <p class="cta-description">
+                    Join thousands who have already transformed their bodies and lives with our personalized fitness plans.
+                </p>
+                <a href="plans.html" class="btn btn-dark btn-lg">
+                    Get Started Now
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mobile Navigation -->
+    <nav class="mobile-nav">
+        <a href="index.html" class="nav-item active">
+            <i class="fas fa-home"></i>
+            <span>Home</span>
+        </a>
+        <a href="plans.html" class="nav-item">
+            <i class="fas fa-clipboard-list"></i>
+            <span>Plans</span>
+        </a>
+        <a href="testimonials.html" class="nav-item">
+            <i class="fas fa-list"></i>
+            <span>Results</span>
+        </a>
+        <a href="contact.html" class="nav-item">
+            <i class="fas fa-phone"></i>
+            <span>Contact</span>
+        </a>
+    </nav>
+
+    <!-- Chat Bot -->
+    <div class="chat-bot">
+        <button id="chat-toggle" class="chat-toggle">
+            <i class="fas fa-comment"></i>
+        </button>
+        <div id="chat-window" class="chat-window hidden">
+            <!-- Chat content will be added by JavaScript -->
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/cursor.js"></script>
+    <script src="js/chat.js"></script>
+</body>
+</html>
